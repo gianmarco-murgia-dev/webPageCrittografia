@@ -1,0 +1,48 @@
+html { height: 100%;}
+body{ 
+    margin:0px; 
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{ margin:0px; /*Elimina il margine superiore presente di default nei titoli*/}
+
+.circle{ border-radius: 50%; }
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.content{ padding: 5%; }
+
+div.twoColumns { width: 100%;}
+div.twoColumns div{
+    padding: 0% 10% 0% 10%;
+    float: left;
+    width: 28%; /*50% - (2*10% dovuto al padding) - 2% dovuto al padding del contenitore (.content)*/
+}
+div.clearer{ /*Serve ad evitare che gli elementi dopo le colonne vengano influenzati dal float*/
+    float: none; 
+    clear: left
+}
+
+.paragraph { font-size: 40px; }
+.paragraphSmall { font-size: 30px; }
+
+.white { color: white; }
+
+.center{ text-align: center; }
+
+img#nextPage{
+    width: 70px;
+    position:absolute;
+    margin-top: 900px;
+    margin-left: 1950px;
+}
+
+h1.title{
+    text-align: center;
+    font-size: 100px;
+}
+

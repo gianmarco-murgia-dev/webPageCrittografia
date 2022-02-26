@@ -1,0 +1,16 @@
+footer {
+  margin-top: auto;
+  background: rgb(63, 63, 63);
+}
+footer div.socialMediaLinks { text-align: center; }
+footer div.socialMediaLinks ul li { display: inline; }
+footer div.socialMediaLinks ul li a {
+  display: inline-block;
+  padding: 5px 20px 5px 20px; /*top, right, bottom, left*/
+  position: relative; 
+  transition: .2s ease-in;
+}
+footer div.socialMediaLinks ul li a:hover{
+  transform: translateY(-5px);
+  box-shadow:  5px 10px 18px rgb(0, 255, 213);
+}

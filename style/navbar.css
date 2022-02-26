@@ -1,0 +1,28 @@
+nav{
+    width: 100%;
+    margin: 0, auto;
+}
+nav ul {
+    list-style-type: none; /*rimuove i caratteri prima dell'elenco, come il punto oppure il '1)'*/
+    margin: 0;
+    padding: 0;
+    text-align: center; /*questo parametro regola la disposizione degli elementi nella navbar*/
+    background-color: rgb(63, 63, 63);
+}
+nav ul li { display: inline; } /*Posiziona gli elementi della lista in orizzonatale invece che in verticale*/
+nav ul li a {
+    color: white;
+    display: inline-block;
+    padding: 14px 36px;
+    text-align: center;
+    text-decoration: none; /*rimuove la sottolineatura dai link*/
+}
+/*Cambia il colore quando il cursore è sopra*/
+nav ul li a:hover { background-color: rgb(0, 0, 0); }
+nav ul li a.active { background-color: #0aaf73; }
+nav ul li a.active:hover { background-color: #0aaf3b; }
+
+#homeIconNavBar{
+    width: 15px;
+    height: 15px;
+}

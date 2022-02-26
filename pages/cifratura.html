@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifratura</title>
+
+  <link rel="stylesheet" href="../style/common.css">
+  <link rel="stylesheet" href="../style/navbar.css">
+  <link rel="stylesheet" href="../style/footer.css">
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home <img id="homeIconNavBar" src="../assets/icons/navbar/home.png"></a></li>
+      <li><a href="crittografia.html">Crittografia</a></li>
+      <li><a href="nascitaDellaCrittografia.html">Nascita della crittografia</a></li>
+      <li><a class="active" href="cifratura.html">Cifratura</a></li>
+      <li><a href="hashing.html">Hashing</a></li>
+      <li><a href="crittografiaQuantistica.html">Crittografia quantistica</a></li>
+      <li><a href="comunicazioneEndToEnd.html">Comunicazione end to end</a></li>
+      <li><a href="signal.html">Signal</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <a href="hashing.html">
+      <img id="nextPage" src="../assets/images/common/Freccia rossa.png" alt="Prossima pagina">
+    </a>
+
+    <h1 class="title">Cifratura</h1>
+    <div class="center">
+      <p class="paragraphSmall">Ci sono sostanzialmente due modi di cifrare:<br>con chiave simmetrica o chiave assimetrica</p>
+    </div>
+    <br><br>
+    <div class="twoColumns">
+      <div class="center">
+        <h1>Chiave simmetrica</h1>
+        <p class="paragraphSmall">Con questa tecnica sia client che server hanno una chiave (la stessa) che permette di cifrare e decifrare il messaggio, veramente semplice da implementare
+          ma estremamente rischioso, nel caso un malintenzionato venga a conoscenza della chiave (che si trova sul suo client) potrebbe decifare le comunicazioni di altri utenti.
+        </p>
+      </div>
+      <div class="center">
+        <h1>Chiave assimetrica</h1>
+        <p class="paragraphSmall">Con questa tecnica client e server possiedono due chiavi diverse, quella del client è pubblica e permette solo di cifrare i messaggi, 
+          quella del server è privata e permette dal messaggio cifrato di tornare a quello normale. A meno che la password server-side non venga scoperta la comunicazione è sicura.
+        </p>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+      <div class="socialMediaLinks">
+        <ul>
+          <li>
+            <!-- whatsapp -->
+            <a class="circle" href="https://wa.me/3519165803" target="_blank">
+              <img class="icon" src="../assets/icons/footer/whatsapp.png" alt="Whatsapp link">
+            </a>
+          </li>
+          <li>
+            <!-- instagram -->
+            <a class="circle" href="https://www.instagram.com/gianmarco.murgia/" target="_blank">
+              <img class="icon" src="../assets/icons/footer/instagram.png" alt="instagram link">
+            </a>
+          </li>
+          <li>
+            <!-- github -->
+            <a class="circle" href="https://github.com/gianmarco-murgia-dev/" target="_blank">
+              <img class="icon" src="../assets/icons/footer/github.png" alt="Github link">
+            </a>
+          </li>
+          <li>
+            <!-- facebook -->
+            <a class="circle" href="https://www.facebook.com/gianmarco.murgia/" target="_blank">
+              <img class="icon" src="../assets/icons/footer/facebook.png" alt="Facebook link">
+            </a>
+          </li>
+          <li>
+            <!-- email -->
+            <a class="circle" href="mailto:gianmarco.murgia.dev@gmail.com" target="_blank">
+              <img class="icon" src="../assets/icons/footer/email.png" alt="Scrivimi una email">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+</body>
+
+</html>

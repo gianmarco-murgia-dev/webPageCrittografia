@@ -1,0 +1,4 @@
+img#crittografiaQuantistica{ margin-top: 100px; }
+img#crittografiaQuantistica:hover{ filter: invert(100%); -webkit-filter: invert(100%); }
+
+h1#titoloCrittografia{ margin-top: -50px; }

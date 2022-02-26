@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hashing</title>
+
+  <link rel="stylesheet" href="../style/common.css">
+  <link rel="stylesheet" href="../style/navbar.css">
+  <link rel="stylesheet" href="../style/footer.css">
+
+  <link rel="stylesheet" href="../style/hashing.css">
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home <img id="homeIconNavBar" src="../assets/icons/navbar/home.png"></a></li>
+      <li><a href="crittografia.html">Crittografia</a></li>
+      <li><a href="nascitaDellaCrittografia.html">Nascita della crittografia</a></li>
+      <li><a href="cifratura.html">Cifratura</a></li>
+      <li><a class="active" href="hashing.html">Hashing</a></li>
+      <li><a href="crittografiaQuantistica.html">Crittografia quantistica</a></li>
+      <li><a href="comunicazioneEndToEnd.html">Comunicazione end to end</a></li>
+      <li><a href="signal.html">Signal</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <a href="crittografiaQuantistica.html">
+      <img id="nextPage" src="../assets/images/common/Freccia rossa.png" alt="Prossima pagina">
+    </a>
+
+    <h1 class="title">Hashing</h1>
+    <div class="twoColumns">
+      <div>
+        <p class="paragraphSmall">
+          L'hashing è una procedura che trasforma una qualunque informazione in una string di n caratteri, per esempio lo sha256 
+          (uno degli algoritmi più usati al mondo) trasforma qualunque testo/file in una string di 64 caratteri. La procedura di hashing è irreversibile
+          e permette ai gestori di servizi di poter salvare la "password" degli utenti senza in realtà poterla vedere, se il sito/app è stato pensato bene
+          è possibile fare l'hash ancor prima di inviare la password al server, questo rende la comunicazione della password sicura anche in caso di trafuga di chiavi.
+          <br>A destra un sito per testare algoritmi di hashing.
+        </p>
+      </div>
+      <div>
+        <iframe id="hashing" src="https://emn178.github.io/online-tools/sha256.html" z></iframe>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="socialMediaLinks">
+      <ul>
+        <li>
+          <!-- whatsapp -->
+          <a class="circle" href="https://wa.me/3519165803" target="_blank">
+            <img class="icon" src="../assets/icons/footer/whatsapp.png" alt="Whatsapp link">
+          </a>
+        </li>
+        <li>
+          <!-- instagram -->
+          <a class="circle" href="https://www.instagram.com/gianmarco.murgia/" target="_blank">
+            <img class="icon" src="../assets/icons/footer/instagram.png" alt="instagram link">
+          </a>
+        </li>
+        <li>
+          <!-- github -->
+          <a class="circle" href="https://github.com/gianmarco-murgia-dev/" target="_blank">
+            <img class="icon" src="../assets/icons/footer/github.png" alt="Github link">
+          </a>
+        </li>
+        <li>
+          <!-- facebook -->
+          <a class="circle" href="https://www.facebook.com/gianmarco.murgia/" target="_blank">
+            <img class="icon" src="../assets/icons/footer/facebook.png" alt="Facebook link">
+          </a>
+        </li>
+        <li>
+          <!-- email -->
+          <a class="circle" href="mailto:gianmarco.murgia.dev@gmail.com" target="_blank">
+            <img class="icon" src="../assets/icons/footer/email.png" alt="Scrivimi una email">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
