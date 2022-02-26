@@ -37,8 +37,8 @@ div.clearer{ /*Serve ad evitare che gli elementi dopo le colonne vengano influen
 img#nextPage{
     width: 70px;
     position:absolute;
-    margin-top: 900px;
-    margin-left: 1950px;
+    margin-top: 800px;
+    margin-left: 1700px;
 }
 
 h1.title{
